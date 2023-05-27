@@ -1,0 +1,14 @@
+Exception Handing :- 
+* Where there is risky code i.e, chances of getting any exception we place that code 
+  inside try and catch block.
+* The risky code is placed inside try block if there any exception during execution,
+  then the catch block catches the exception and if there is any handling logic that 
+  logic will get executed.
+* In the above example we have a method(checkNumberIsNegativeOrNot) to check if the number 
+  negative or not,if the number is negative it throws a ArithmeticException.
+* During Execution when the user enters the number , from the main method we call this 
+  checkNumberIsNegativeOrNot method,since this method will returns string if it is a 
+  positive number or else it will throw an exception. Since it is a risky code we place 
+  this code inside a try and catch block.While calling the method if it returns exception
+  the ArithmeticException catch block catches the exception and the logic inside this catch
+  block gets executed.  	

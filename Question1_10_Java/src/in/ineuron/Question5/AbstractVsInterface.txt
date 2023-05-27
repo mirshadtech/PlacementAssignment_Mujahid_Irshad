@@ -1,0 +1,14 @@
+1.In Interface, a class can implement multiple interfaces, whereas the class can inherit only one Abstract Class.
+2.In Interface does not have access modifiers. 
+3.Everything defined inside the Interface is assumed to have a public modifier, 
+  whereas Abstract Class can have an access modifier.
+4.The Interface cannot contain data fields, whereas the abstract class can have data fields.
+5.Abstract keyword used to declare the abstract class. 
+  Also, the abstract class can be extended by using the keyword “extends”.
+6.Interface keyword used to declare interface. Also, 
+  interface can be implemented by using the keyword “implements”.
+7.Can have abstract and non-abstract methods. Can have default method implementation
+8.Can only have abstract methods, though, since Java 8, it can also have static and default methods. 
+9.With Abstract class we can Achieve (0-90)% abstraction,whereas with interface we we can Achieve (100)% abstraction.
+10.Abstract class Can have final, non-final, static, and non-static variables.
+11.Interface Can only have final and static variables.
